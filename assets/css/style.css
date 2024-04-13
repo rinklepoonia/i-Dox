@@ -158,10 +158,18 @@
     top: -22px;
 }
 
+.blue_line {
+    width: 109px;
+    border: 1px solid #0389FF
+        /* left: 0;
+    bottom: 0; */
+}
+
 .hero_bg {
     background-image: url(../images/png/hero-bg.png);
-    background-size: cover;
+    background-size: 101% 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .pt_81 {
