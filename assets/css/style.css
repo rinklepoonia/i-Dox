@@ -176,6 +176,15 @@
     padding-top: 81px;
 }
 
+/* ==============collebration_box========== */
+.slideBox img {
+    filter: grayscale(100%);
+}
+
+.slideBox:hover img {
+    filter: unset;
+}
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
