@@ -301,6 +301,16 @@
     top: -10%;
 }
 
+/* ==================secure-solution=========== */
+.position_soution_centerEllip {
+    top: 7%;
+    left: 28%;
+}
+
+.secure_future_Rightellip {
+    top: -80%;
+}
+
 
 @media (max-width:991.99px) {
     .overFlowHidden {
