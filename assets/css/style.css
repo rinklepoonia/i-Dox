@@ -96,10 +96,9 @@
     line-height: 44px;
 }
 
-.lh-55 {
+/* .lh-lg-55 {
     line-height: 55px;
-}
-
+} */
 
 .opacity_70 {
     opacity: 70%;
@@ -161,8 +160,6 @@
 .blue_line {
     width: 109px;
     border: 1px solid #0389FF
-        /* left: 0;
-    bottom: 0; */
 }
 
 .hero_bg {
@@ -184,7 +181,19 @@
 .slideBox:hover img {
     filter: unset;
 }
-
+/* ==============Compliance Security Trust================ */
+.max_w_467{
+    max-width: 467px;
+}
+.max_w_474{
+    max-width: 474px;
+}
+.mb_28{
+    margin-bottom: 28px;
+}
+.max_w_213{
+    max-width: 213px;
+}
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
@@ -220,6 +229,11 @@
         transition: all 300ms linear;
     }
 
+}
+@media (min-width:576px) {
+    .lh-sm-55 {
+            line-height: 55px;
+        }
 }
 
 @media (min-width:992px) {

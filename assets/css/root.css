@@ -10,8 +10,8 @@
     --fs-18: 18px;
     --fs-20: 20px;
     --fs-32: 32px;
-    --fs-44: 44px;
-    --fs-48: 30px;
+    --fs-44:30px;
+    --fs-48: 40px;
     /* ========color========= */
     --clr-lightWhite: #FBFDFF;
     --clr-bodyBlue: #020D15;
@@ -90,6 +90,7 @@
 @media (min-width:576px) {
     :root {
         --fs-48: 48px;
+        --fs-44: 44px;
     }
 }
 
