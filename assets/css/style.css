@@ -210,6 +210,11 @@
     top: -30%;
 }
 
+.position_helpLeft_ellip {
+    top: 12%;
+    z-index: -1;
+}
+
 .timeSaving_Iconbox {
     width: 64px;
     height: 64px;
