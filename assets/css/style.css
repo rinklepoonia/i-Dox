@@ -206,6 +206,10 @@
     gap: 22px;
 }
 
+.position_help_ellip {
+    top: -30%;
+}
+
 .timeSaving_Iconbox {
     width: 64px;
     height: 64px;
