@@ -6,6 +6,7 @@ menuIcon.addEventListener("click", function () {
     document.body.classList.toggle("overFlowHidden")
     document.querySelector(".menuIcon").classList.toggle("cross")
 })
+// ==========slider-collaboration
 $('.slider_collaboration').slick({
     arrows: false,
     dots: false,
@@ -20,3 +21,11 @@ $('.slider_collaboration').slick({
     pauseOnHover: true,
     cssEase: 'linear',
 });
+const accordionHead = document.querySelectorAll(".accordionHead");
+accordionHead.forEach((e) => {
+    e.addEventListener("click", () => {
+        const activeAccordion = document.querySelector(".active")
+        e.parentElement.classList.toggle("active")
+        activeAccordion && activeAccordion.classList.remove("active")
+    })
+})
