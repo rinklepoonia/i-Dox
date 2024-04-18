@@ -6,18 +6,18 @@
     --fs-13: 13px;
     --fs-14: 14px;
     --fs-15: 15px;
-    --fs-16: 16px;
+    --fs-16: 20px;
     --fs-18: 18px;
     --fs-20: 20px;
     --fs-32: 32px;
-    --fs-44:30px;
+    --fs-44: 30px;
     --fs-48: 40px;
     /* ========color========= */
     --clr-lightWhite: #FBFDFF;
     --clr-bodyBlue: #020D15;
     --clr-navBlue: #030D18;
     --clr-blue: #0389FF;
-    --clr-timeSaveBlue:#0389FF1A;
+    --clr-timeSaveBlue: #0389FF1A;
 }
 
 .color-blue {
@@ -49,7 +49,7 @@
 }
 
 .text-12 {
-    font-size:var(--fs-12);
+    font-size: var(--fs-12);
 }
 
 .text-13 {
@@ -92,6 +92,7 @@
     :root {
         --fs-48: 48px;
         --fs-44: 44px;
+        --fs-16: 16px;
     }
 }
 

@@ -29,3 +29,24 @@ accordionHead.forEach((e) => {
         activeAccordion && activeAccordion.classList.remove("active")
     })
 })
+$('.testi_slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+        // {
+        //     breakpoint: 600,
+        //     settings: {
+        //         slidesToShow: 1,
+        //         slidesToScroll: 2,
+        //         dots: true,
+        //         centerMode: false,
+        //         centerPadding: '0',
+        //     }
+        // },
+    ]
+});

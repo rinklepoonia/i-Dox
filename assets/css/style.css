@@ -13,6 +13,10 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+.ff_pop {
+    font-family: ' Poppins', sans-serif;
+}
+
 /* ===========font-weight====== */
 .fw-300 {
     font-weight: 300;
@@ -268,6 +272,11 @@
     margin-bottom: 20px;
 }
 
+.py_89_109 {
+    padding-top: 89px;
+    padding-bottom: 109px;
+}
+
 .bringValue_IconBox {
     width: 51.02px;
     height: 52.26px;
@@ -279,7 +288,7 @@
 .bringValue_box {
     max-width: 400px;
     background: var(--clr-timeSaveBlue);
-    padding: 13px 101px 13px 16px;
+    padding: 13px 20px 13px 5px;
     border-radius: 10px;
     margin-bottom: 16px;
 }
@@ -309,6 +318,100 @@
 
 .secure_future_Rightellip {
     top: -80%;
+}
+
+/* ===============testimonil_slider=========== */
+/* .h {
+    height: 500px;
+} */
+
+.style_italic {
+    font-style: italic;
+}
+
+.max_w_834 {
+    max-width: 834px;
+}
+
+.py_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.slick-next:before {
+    display: none;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.testimonil_slider_box {
+    background: var(--clr-timeSaveBlue);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.slick-list {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+#testi-slider .slick-track {
+    display: flex;
+    gap: 24px;
+}
+
+.slick-dots {
+    z-index: 9;
+}
+
+#testi-slider .slick-dots li.slick-active {
+    background: var(--clr-blue);
+    width: 53px;
+    height: 10px;
+}
+
+#testi-slider .slick-dots li button:before {
+    content: unset;
+}
+
+#testi-slider .slick-dots li {
+    content: unset;
+    width: 10px;
+    height: 10px;
+    background: white;
+    color: white;
+    margin: 7px;
+    border-radius: 21px;
+    transition: all 300ms linear;
+}
+
+
+#testi-slider .slick-dots {
+    bottom: -70px;
+}
+
+#testi-slider .slick-slide:not(.slick-current) {
+    opacity: 50%;
+}
+
+/* ================how-it-works=============== */
+.ms_6 {
+    margin-left: 6px;
+}
+
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+.smal_btn_modification {
+    background: linear-gradient(99.45deg, #0389FF 0%, #0069E3 100%);
+    max-width: 124px;
+    border-radius: 45px;
+    padding: 3px 15px;
+    text-align: center;
 }
 
 
@@ -353,11 +456,23 @@
     .lh-sm-55 {
         line-height: 55px;
     }
+
+    .bringValue_box {
+        padding: 13px 101px 13px 16px;
+    }
+
+    .testimonil_slider_box {
+        padding: 27px 56px 42px 56px;
+    }
 }
 
 @media (min-width:768px) {
     .mb_md_44 {
         margin-bottom: 44px;
+    }
+
+    .slick-list {
+        padding: 0 20% 0 20% !important;
     }
 }
 
