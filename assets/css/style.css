@@ -269,9 +269,9 @@
 }
 
 /* ==============how can we help=========== */
-.py_102_177 {
-    padding-top: 102px;
-    padding-bottom: 177px;
+.py_35_25 {
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 
 .max_w_370 {
@@ -282,8 +282,14 @@
     gap: 22px;
 }
 
+.row_gap_help {
+    row-gap: 10px;
+}
+
 .position_help_ellip {
     top: -30%;
+    opacity: 90%;
+    z-index: -1;
 }
 
 .position_helpLeft_ellip {
@@ -302,7 +308,7 @@
 
 .timeSaving_box {
     background: var(--clr-timeSaveBlue);
-    padding: 23px 59px 23px 23px;
+    padding: 15px;
     max-width: 531px;
     border-radius: 10px;
     transition: all 300ms linear;
@@ -324,7 +330,7 @@
 }
 
 .timeSaving_box.active {
-    padding: 17px 59px 35px 15px;
+    padding: 5px 10px;
 }
 
 .timeSaving_box.active .accordionHead .timeSaving_Iconbox {
@@ -393,9 +399,6 @@
 }
 
 /* ===============testimonil_slider=========== */
-/* .h {
-    height: 500px;
-} */
 
 .style_italic {
     font-style: italic;
@@ -537,8 +540,25 @@
         padding: 27px 56px 42px 56px;
     }
 
+    .timeSaving_box {
+        padding: 23px;
+    }
+
+    .timeSaving_box.active {
+        padding: 17px 59px 35px 15px;
+    }
+
     .comn_btn {
         padding: 13px 32px;
+    }
+
+    .py_sm_35_55 {
+        padding-top: 35px;
+        padding-bottom: 55px;
+    }
+
+    .row_gap_help {
+        row-gap: 0;
     }
 }
 
@@ -549,6 +569,11 @@
 
     .slick-list {
         padding: 0 20% 0 20% !important;
+    }
+
+    .py_md_70_95 {
+        padding-top: 70px;
+        padding-bottom: 95px;
     }
 }
 
@@ -571,6 +596,11 @@
 
     .lh-lg-60 {
         line-height: 60px;
+    }
+
+    .py_lg_102_177 {
+        padding-top: 102px;
+        padding-bottom: 177px;
     }
 
 
