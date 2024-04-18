@@ -21,6 +21,9 @@
     --clr-ellipBlue: #1673FF;
     --clr-valueBlue: #0066FF;
     --clr-timeSaveBlue: #0389FF1A;
+    --clr-borderGET: #FFFFFF1A;
+    --clr-getInerBlue: #00000054;
+    --clr-getOuterBlue: #0389FF1F;
 }
 
 .color-blue {
