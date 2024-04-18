@@ -295,6 +295,7 @@
 .position_helpLeft_ellip {
     top: 12%;
     z-index: -1;
+    filter: blur(92px);
 }
 
 .timeSaving_Iconbox {
@@ -350,11 +351,6 @@
     margin-bottom: 20px;
 }
 
-.py_89_109 {
-    padding-top: 89px;
-    padding-bottom: 109px;
-}
-
 .bringValue_IconBox {
     width: 51.02px;
     height: 52.26px;
@@ -374,8 +370,8 @@
 .bringValue_center_ellip {
     width: 381.48px;
     height: 395.79px;
-    opacity: 30%;
-    background: #0066FF;
+    opacity: 22%;
+    background: var(--clr-valueBlue);
     filter: blur(100px);
 }
 
@@ -386,6 +382,7 @@
 
 .bringValue_rightEllip {
     top: -10%;
+    opacity: 80%;
 }
 
 /* ==================secure-solution=========== */
@@ -525,6 +522,10 @@
         transition: all 300ms linear;
     }
 
+    .max_w_645 {
+        max-width: 645px;
+    }
+
 }
 
 @media (min-width:576px) {
@@ -601,6 +602,11 @@
     .py_lg_102_177 {
         padding-top: 102px;
         padding-bottom: 177px;
+    }
+
+    .py_lg_89_109 {
+        padding-top: 89px;
+        padding-bottom: 109px;
     }
 
 
