@@ -640,9 +640,9 @@ input[type="checkbox"]:checked {
     margin-bottom: 20px;
 }
 
-.py_174_121 {
-    padding-top: 174px;
-    padding-bottom: 121px;
+.py_45_0 {
+    padding-top: 45px;
+    padding-bottom: 0;
 }
 
 .padding_inte {
@@ -663,6 +663,34 @@ input[type="checkbox"]:checked {
     filter: blur(82px);
 }
 
+/* =============Accelerate Your Enterprise’s Document============== */
+.py_60_22 {
+    padding-top: 60px;
+    padding-bottom: 22px;
+}
+
+.position_security {
+    bottom: 23px;
+    right: 0;
+}
+
+.max_w_507 {
+    max-width: 507px;
+}
+
+.max_w_150 {
+    max-width: 150px;
+}
+
+.position_AccelerateEllip {
+    width: 381.48px;
+    height: 395.79px;
+    background: var(--clr-valueBlue);
+    opacity: 30%;
+    filter: blur(100px);
+    top: 20%;
+    right: 18%;
+}
 
 @media (max-width:991.99px) {
     .overFlowHidden {
@@ -786,6 +814,11 @@ input[type="checkbox"]:checked {
         width: 100%;
         top: 80%;
     }
+
+    .py_sm_70_20 {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
 }
 
 @media (min-width:576px)and (max-width:768px) {
@@ -851,11 +884,24 @@ input[type="checkbox"]:checked {
     .mb_md_40 {
         margin-bottom: 40px;
     }
+
+    .position_security {
+        bottom: 17px;
+    }
+
+    .py_md_116_60 {
+        padding-top: 116px;
+        padding-bottom: 60px;
+    }
 }
 
 @media (min-width:992px) {
     .max_w_524 {
         max-width: 524px;
+    }
+
+    .max_w_525 {
+        max-width: 525px;
     }
 
     .max_w_515 {
@@ -917,5 +963,13 @@ input[type="checkbox"]:checked {
         margin-bottom: 71px;
     }
 
+    .position_security {
+        bottom: 23px;
+    }
+
+    .py_lg_174_121 {
+        padding-top: 174px;
+        padding-bottom: 121px;
+    }
 
 }
