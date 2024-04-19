@@ -14,6 +14,7 @@
     --fs-48: 40px;
     /* ========color========= */
     --clr-white: #ffff;
+    --clr-black: #000000;
     --clr-lightWhite: #FBFDFF;
     --clr-bodyBlue: #020D15;
     --clr-navBlue: #030D18;
@@ -24,6 +25,22 @@
     --clr-borderGET: #FFFFFF1A;
     --clr-getInerBlue: #00000054;
     --clr-getOuterBlue: #0389FF1F;
+}
+
+.color-white {
+    color: var(--clr-white);
+}
+
+.color-black {
+    color: var(--clr-black);
+}
+
+.bg_black {
+    background: var(--clr-black);
+}
+
+.bg_blue {
+    background: var(--clr-blue);
 }
 
 .color-blue {
