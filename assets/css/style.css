@@ -635,6 +635,35 @@ input[type="checkbox"]:checked {
     row-gap: 10px;
 }
 
+/* ==============Our Integrations================= */
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.py_174_121 {
+    padding-top: 174px;
+    padding-bottom: 121px;
+}
+
+.padding_inte {
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.Intergration_ellip {
+    width: 416.22px;
+    height: 405.43px;
+    background: var(--clr-valueBlue);
+}
+
+.position_integration {
+    top: 23%;
+    left: 0;
+    opacity: 18%;
+    filter: blur(82px);
+}
+
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
@@ -733,6 +762,42 @@ input[type="checkbox"]:checked {
     .started_outer_box {
         margin-bottom: 15px;
     }
+
+    .padding_inte {
+        padding-top: 22px;
+        padding-bottom: 36px;
+    }
+
+
+    .integration_x_line {
+        border-bottom: 1px solid var(--clr-borderGrey);
+        width: 100%;
+        top: 36%;
+    }
+
+    .integration_x_line2 {
+        border-bottom: 1px solid var(--clr-borderGrey);
+        width: 100%;
+        top: 59%;
+    }
+
+    .integration_x_line3 {
+        border-bottom: 1px solid var(--clr-borderGrey);
+        width: 100%;
+        top: 80%;
+    }
+}
+
+@media (min-width:576px)and (max-width:768px) {
+    .border_sm_right {
+        border-right: 1px solid var(--clr-borderGrey);
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .border_md_right {
+        border-right: 1px solid var(--clr-borderGrey);
+    }
 }
 
 @media (min-width:768px) {
@@ -764,6 +829,27 @@ input[type="checkbox"]:checked {
 
     .started_outer_box {
         margin-bottom: 20px;
+    }
+
+    .integration_x_line {
+        top: 47%;
+    }
+
+    .integration_x_line2 {
+        top: 75%;
+    }
+
+    .integration_x_line3 {
+        display: none;
+    }
+
+    .padding_inte {
+        padding-top: 58px;
+        padding-bottom: 63px;
+    }
+
+    .mb_md_40 {
+        margin-bottom: 40px;
     }
 }
 
@@ -813,6 +899,22 @@ input[type="checkbox"]:checked {
 
     .mt_lg_66 {
         margin-top: 66px;
+    }
+
+    .border_lg_right {
+        border-right: 1px solid var(--clr-borderGrey);
+    }
+
+    .integration_x_line {
+        top: 64%;
+    }
+
+    .integration_x_line2 {
+        display: none;
+    }
+
+    .mb_lg_71 {
+        margin-bottom: 71px;
     }
 
 
