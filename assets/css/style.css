@@ -500,6 +500,10 @@
         overflow: hidden;
     }
 
+    /* .start-0 {
+        left: 0;
+    } */
+
     ul.menulist.show {
         left: 0;
     }

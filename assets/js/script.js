@@ -1,11 +1,16 @@
-const menuIcon = document.querySelector(".menuIcon")
-const menulist = document.querySelector(".menulist")
+// const menuIcon = document.querySelector(".menuIcon")
+// const menulist = document.querySelector(".menulist")
 
-menuIcon.addEventListener("click", function () {
-    menulist.classList.toggle("show");
-    document.body.classList.toggle("overFlowHidden")
+// menuIcon.addEventListener("click", function () {
+//     menulist.classList.toggle("show");
+//     document.body.classList.toggle("overFlowHidden")
+//     document.querySelector(".menuIcon").classList.toggle("cross")
+// })
+function openNav() {
+    document.getElementById("navbar").classList.toggle("start-0");
+    document.body.classList.toggle("overFlowHidden");
     document.querySelector(".menuIcon").classList.toggle("cross")
-})
+}
 // ==========slider-collaboration
 $('.slider_collaboration').slick({
     arrows: false,

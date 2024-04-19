@@ -22,10 +22,11 @@
             <div class="nav_container_1350">
                 <div class="d-flex align-items-center justify-content-between h_70">
                     <a href=""><img src="./assets/images/svg/dox-logo.svg" alt="dox-logo"></a>
-                    <ul class="d-flex gap_51 mb-0 align-items-center ps-0 menulist ">
+                    <ul id="navbar" class="d-flex gap_51 mb-0 align-items-center ps-0 menulist ">
                         <li><a href="" class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Redact</a>
                         </li>
-                        <li><a href="" class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Extract</a>
+                        <li><a href="#extract" onclick="openNav()"
+                                class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Extract</a>
                         </li>
                         <li><a href="" class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Detect</a>
                         </li>
@@ -33,7 +34,12 @@
                         </li>
                         <button class="fw-600 text-16 lh-27 color-lightWhite comn_btn">Try Now</button>
                     </ul>
-                    <div class="menuIcon d-flex flex-column z-3 d-lg-none">
+                    <!-- <div class="menuIcon d-flex flex-column z-3 d-lg-none">
+                        <span></span>
+                        <span class="my-2"></span>
+                        <span></span>
+                    </div> -->
+                    <div onclick="openNav()" class="menuIcon d-flex flex-column z-3 d-lg-none">
                         <span></span>
                         <span class="my-2"></span>
                         <span></span>
@@ -104,7 +110,7 @@
         </div>
     </section>
     <!-- ===============Compliance Security Trust============= -->
-    <section>
+    <section id="extract">
         <div class="container_1140">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6 col-12">
