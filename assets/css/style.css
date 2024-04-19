@@ -692,6 +692,58 @@ input[type="checkbox"]:checked {
     right: 18%;
 }
 
+/* =================choose the plan best fits for you================= */
+.gap_23 {
+    gap: 23px;
+}
+
+.border_right {
+    border-right: 1px solid var(--clr-borderGrey)
+}
+
+.choosePlan_x_line {
+    border: 1px solid var(--clr-borderGrey);
+    width: 100%;
+    top: 53%;
+}
+
+.mt_58 {
+    padding-top: 58px;
+}
+
+/* =========get-started-today========== */
+.mb_46 {
+    margin-bottom: 46px;
+}
+
+.py_123 {
+    padding-top: 123px;
+    padding-bottom: 123px;
+}
+
+.started_bg_img {
+    background-image: url(../images/png/started-tody-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.max_w_618 {
+    max-width: 618px;
+}
+
+.bg_transprant {
+    background: transparent;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.input_modification {
+    background: var(--clr-inputBg);
+    border-radius: 29px;
+    max-width: 520px;
+    padding: 0 0px 0 33px;
+}
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
