@@ -834,8 +834,8 @@ input[type="checkbox"]:checked {
     margin-top: 15px;
 }
 
-.pt_110 {
-    padding-top: 110px;
+.pt_20 {
+    padding-top: 20px;
 }
 
 .ps_0 {
@@ -858,7 +858,7 @@ input[type="checkbox"]:checked {
 }
 
 .border_bottom {
-    border-bottom: 1px solid (var--clr-lightWhite);
+    border-bottom: 1px solid var(--clr-lightWhite);
     opacity: 20%;
 }
 
@@ -1045,6 +1045,10 @@ input[type="checkbox"]:checked {
     .mb_sm_30 {
         margin-bottom: 30px;
     }
+
+    .pt_sm_40 {
+        padding-top: 40px;
+    }
 }
 
 @media (min-width:576px)and (max-width:768px) {
@@ -1169,6 +1173,10 @@ input[type="checkbox"]:checked {
     .mb_md_46 {
         margin-bottom: 46px;
     }
+
+    .pt_md_70 {
+        padding-top: 70px;
+    }
 }
 
 @media (min-width:992px) {
@@ -1284,6 +1292,10 @@ input[type="checkbox"]:checked {
     .py_lg_123 {
         padding-top: 123px;
         padding-bottom: 123px;
+    }
+
+    .pt_lg_110 {
+        padding-top: 110px;
     }
 
 }
