@@ -103,6 +103,13 @@
 /* .lh-lg-55 {
     line-height: 55px;
 } */
+.opacity_50 {
+    opacity: 50%;
+}
+
+.opacity_60 {
+    opacity: 60%;
+}
 
 .opacity_70 {
     opacity: 70%;
@@ -744,6 +751,65 @@ input[type="checkbox"]:checked {
     padding: 0 0px 0 33px;
 }
 
+/* =============footer============== */
+.container_1310 {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+.mb_5 {
+    margin-bottom: 5px;
+}
+
+.mb_19 {
+    margin-bottom: 19px;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.pt_110 {
+    padding-top: 110px;
+}
+
+.ps_0 {
+    padding-left: 0;
+}
+
+.footer_bg_color {
+    background: var(--clr-timeSaveBlue);
+}
+
+.max_w_225 {
+    max-width: 225px;
+}
+
+.footer_IconBox {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--clr-footerGry);
+    /* padding: 6px 11px; */
+}
+
+.border_bottom {
+    border-bottom: 1px solid #FBFDFF;
+    opacity: 20%;
+}
+
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
@@ -848,7 +914,6 @@ input[type="checkbox"]:checked {
         padding-bottom: 36px;
     }
 
-
     .integration_x_line {
         border-bottom: 1px solid var(--clr-borderGrey);
         width: 100%;
@@ -870,6 +935,18 @@ input[type="checkbox"]:checked {
     .py_sm_70_20 {
         padding-top: 70px;
         padding-bottom: 20px;
+    }
+
+    .mb_lg_10 {
+        margin-bottom: 10px;
+    }
+
+    .footer_row_gap {
+        row-gap: 20px;
+    }
+
+    .mt_sm_30 {
+        margin-top: 30px;
     }
 }
 
@@ -944,6 +1021,14 @@ input[type="checkbox"]:checked {
     .py_md_116_60 {
         padding-top: 116px;
         padding-bottom: 60px;
+    }
+
+    .ps_0 {
+        padding-left: 2rem;
+    }
+
+    .mt_md_60 {
+        margin-top: 60px;
     }
 }
 
@@ -1024,4 +1109,14 @@ input[type="checkbox"]:checked {
         padding-bottom: 121px;
     }
 
+    .mt_lg_95 {
+        margin-top: 95px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .mb_xl_36 {
+        margin-bottom: 36px;
+    }
 }
