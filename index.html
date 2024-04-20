@@ -23,22 +23,20 @@
                 <div class="d-flex align-items-center justify-content-between h_70">
                     <a href=""><img src="./assets/images/svg/dox-logo.svg" alt="dox-logo"></a>
                     <ul id="navbar" class="d-flex gap_51 mb-0 align-items-center ps-0 menulist ">
-                        <li><a href="" class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Redact</a>
+                        <li><a href="#redact" onclick="openNav()"
+                                class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Redact</a>
                         </li>
                         <li><a href="#extract" onclick="openNav()"
                                 class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Extract</a>
                         </li>
-                        <li><a href="" class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Detect</a>
+                        <li><a href="#detect" onclick="openNav()"
+                                class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Detect</a>
                         </li>
-                        <li><a href="" class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Compare</a>
+                        <li><a href="#compare" onclick="openNav()"
+                                class="fw-400 text-15 lh-18 color-lightWhite opacity_80 nav_links">Compare</a>
                         </li>
                         <button class="fw-600 text-16 lh-27 color-lightWhite comn_btn">Try Now</button>
                     </ul>
-                    <!-- <div class="menuIcon d-flex flex-column z-3 d-lg-none">
-                        <span></span>
-                        <span class="my-2"></span>
-                        <span></span>
-                    </div> -->
                     <div onclick="openNav()" class="menuIcon d-flex flex-column z-3 d-lg-none">
                         <span></span>
                         <span class="my-2"></span>
@@ -447,7 +445,7 @@
         </div>
     </section>
     <!-- ==============provide secure solutions ================-->
-    <section class="position-relative pb_131">
+    <section id="detect" class="position-relative pb_131">
         <div class="bringValue_center_ellip position-absolute position_soution_centerEllip d-md-block d-none"></div>
         <div class="secure_future_Rightellip position-absolute end-0 d-lg-block d-none"><img class="w-100"
                 src="./assets/images/png/secure-right-ellip.png" alt="secure-right-ellip"></div>
@@ -470,7 +468,7 @@
         </div>
     </section>
     <!-- ==========how-it-work========== -->
-    <section class="position-relative">
+    <section id="compare" class="position-relative">
         <div class="work_ellip position-absolute position_work_ellip"></div>
         <div class="container_1140">
             <h3 class="ff_jakarta fw-500 text-44 lh-sm-55 lh-44 color-lightWhite text-center">How it works</h3>
@@ -776,7 +774,7 @@
         </div>
     </section>
     <!-- ==============Accelerate Your Enterprise’s Document============== -->
-    <section class="py_60_22 position-relative">
+    <section id="redact" class="py_60_22 position-relative">
         <div class="position-absolute position_AccelerateEllip d-sm-block d-none"></div>
         <div class="container_1140">
             <div class="row flex-lg-row flex-column-reverse">
