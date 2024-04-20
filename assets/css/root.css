@@ -14,6 +14,7 @@
     --fs-48: 40px;
     /* ========color========= */
     --clr-white: #ffff;
+    --clr-black: #000000;
     --clr-lightWhite: #FBFDFF;
     --clr-bodyBlue: #020D15;
     --clr-navBlue: #030D18;
@@ -21,6 +22,34 @@
     --clr-ellipBlue: #1673FF;
     --clr-valueBlue: #0066FF;
     --clr-timeSaveBlue: #0389FF1A;
+    --clr-borderGET: #FFFFFF1A;
+    --clr-inputBg: #FBFDFF12;
+    --clr-getInerBlue: #00000054;
+    --clr-getOuterBlue: #0389FF1F;
+    --clr-borderGrey: #273138;
+    --clr-footerGry: #808B93;
+    --clr-lightwhite70: #B0B5B9;
+    --clr-btnShadowBlue: #2746ED80;
+}
+
+.color-lightwhite70 {
+    color: var(--clr-lightwhite70);
+}
+
+.color-white {
+    color: var(--clr-white);
+}
+
+.color-black {
+    color: var(--clr-black);
+}
+
+.bg_black {
+    background: var(--clr-black);
+}
+
+.bg_blue {
+    background: var(--clr-blue);
 }
 
 .color-blue {
