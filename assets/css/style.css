@@ -704,6 +704,23 @@ input[type="checkbox"]:checked {
     gap: 23px;
 }
 
+.py_207_37 {
+    padding-top: 207px;
+    padding-bottom: 37px;
+}
+
+.pb_81 {
+    padding-bottom: 81px;
+}
+
+.mb_87 {
+    margin-bottom: 87px;
+}
+
+.mb_57 {
+    margin-bottom: 57px;
+}
+
 .border_right {
     border-right: 1px solid var(--clr-borderGrey)
 }
@@ -711,11 +728,14 @@ input[type="checkbox"]:checked {
 .choosePlan_x_line {
     border: 1px solid var(--clr-borderGrey);
     width: 100%;
-    top: 53%;
+    top: 37%;
 }
 
-.mt_58 {
-    padding-top: 58px;
+.choose_btn {
+    border: 1px solid var(--clr-lightwhite70);
+    padding: 13px 32px;
+    background: transparent;
+    border-radius: 40px;
 }
 
 /* =========get-started-today========== */
