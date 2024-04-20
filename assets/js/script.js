@@ -18,6 +18,7 @@ $('.slider_collaboration').slick({
     pauseOnHover: true,
     cssEase: 'linear',
 });
+// ==========accordion
 const accordionHead = document.querySelectorAll(".accordionHead");
 accordionHead.forEach((e) => {
     e.addEventListener("click", () => {
@@ -26,6 +27,7 @@ accordionHead.forEach((e) => {
         activeAccordion && activeAccordion.classList.remove("active")
     })
 })
+// ================testi-slider
 $('.testi_slider').slick({
     dots: true,
     infinite: true,
@@ -46,4 +48,18 @@ $('.testi_slider').slick({
         //     }
         // },
     ]
+});
+// ===============back-to-top
+const topBtn = document.querySelector(".topBtn");
+const show = document.querySelector(".show");
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 500) {
+        topBtn.classList.add("show");
+    } else {
+        topBtn.classList.remove("show");
+    }
+})
+topBtn.addEventListener("click", function () {
+    document.documentElement.scrollTop = 0;
 });
