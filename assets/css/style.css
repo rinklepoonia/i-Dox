@@ -518,7 +518,6 @@
     margin-top: 35px;
 }
 
-
 .gap_6 {
     gap: 6px;
 }
@@ -578,7 +577,7 @@ input[type="checkbox"] {
     margin: 0;
     width: 1.15em;
     height: 1.15em;
-    border: 0.15px solid white;
+    border: 0.15px solid var(--clr-white);
     border-radius: 2px;
     cursor: pointer;
 }
@@ -704,31 +703,29 @@ input[type="checkbox"]:checked {
     gap: 23px;
 }
 
-.py_207_37 {
-    padding-top: 207px;
-    padding-bottom: 37px;
+.py_5_15 {
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 
 .pb_81 {
     padding-bottom: 81px;
 }
 
+.pb_20 {
+    padding-bottom: 20px;
+}
+
 .mb_87 {
     margin-bottom: 87px;
 }
 
-.mb_57 {
-    margin-bottom: 57px;
+.mb_18 {
+    margin-bottom: 18px;
 }
 
 .border_right {
-    border-right: 1px solid var(--clr-borderGrey)
-}
-
-.choosePlan_x_line {
-    border: 1px solid var(--clr-borderGrey);
-    width: 100%;
-    top: 37%;
+    border-right: 1px solid var(--clr-borderGrey);
 }
 
 .choose_btn {
@@ -736,6 +733,43 @@ input[type="checkbox"]:checked {
     padding: 13px 32px;
     background: transparent;
     border-radius: 40px;
+    transition: all 0.2s linear;
+}
+
+.position_choose_leftEllip {
+    left: 0;
+    top: 0;
+    opacity: 30%;
+    filter: blur(140px);
+}
+
+.choose_ellip {
+    width: 537.69px;
+    height: 156.42px;
+    background: var(--clr-valueBlue);
+    display: none;
+    transition: all 0.2s linear;
+}
+
+.position_ChooseCenterEllip {
+    top: 23%;
+    left: -9%;
+    opacity: 30%;
+    filter: blur(100px);
+}
+
+.choose_col_hover:hover .choose_ellip {
+    display: block;
+}
+
+.choose_col_hover:hover .choose_btn {
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 32px 0px var(--clr-btnShadowBlue);
+}
+
+.choose_col_hover:hover .doller {
+    color: var(--clr-blue);
 }
 
 /* =========get-started-today========== */
@@ -821,11 +855,10 @@ input[type="checkbox"]:checked {
     height: 32px;
     border-radius: 50%;
     border: 1px solid var(--clr-footerGry);
-    /* padding: 6px 11px; */
 }
 
 .border_bottom {
-    border-bottom: 1px solid #FBFDFF;
+    border-bottom: 1px solid (var--clr-lightWhite);
     opacity: 20%;
 }
 
@@ -968,6 +1001,41 @@ input[type="checkbox"]:checked {
     .mt_sm_30 {
         margin-top: 30px;
     }
+
+    .pb_sm_25 {
+        padding-bottom: 25px;
+    }
+
+    .mb_sm_30 {
+        margin-bottom: 30px;
+    }
+
+    .choosePlan_x_line {
+        border: 1px solid var(--clr-borderGrey);
+        width: 100%;
+        top: 19%;
+    }
+
+    .choosePlan_x_line2 {
+        border: 1px solid var(--clr-borderGrey);
+        width: 100%;
+        top: 49%;
+    }
+
+    .choosePlan_x_line3 {
+        border: 1px solid var(--clr-borderGrey);
+        width: 100%;
+        top: 79%;
+    }
+
+    .py_sm_35_23 {
+        padding-top: 35px;
+        padding-bottom: 23px;
+    }
+
+    .mb_sm_30 {
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width:576px)and (max-width:768px) {
@@ -1050,6 +1118,39 @@ input[type="checkbox"]:checked {
     .mt_md_60 {
         margin-top: 60px;
     }
+
+    .choosePlan_x_line {
+        top: 20%;
+    }
+
+    .choosePlan_x_line2 {
+        top: 66%;
+    }
+
+    .choosePlan_x_line3 {
+        display: none;
+    }
+
+    .border_md_right {
+        border-right: 1px solid var(--clr-borderGrey);
+    }
+
+    .py_md_150_35 {
+        padding-top: 150px;
+        padding-bottom: 35px;
+    }
+
+    .mb_md_45 {
+        margin-bottom: 45px;
+    }
+
+    .pb_md_50 {
+        padding-bottom: 50px;
+    }
+
+    .mb_48 {
+        margin-bottom: 48px;
+    }
 }
 
 @media (min-width:992px) {
@@ -1131,6 +1232,35 @@ input[type="checkbox"]:checked {
 
     .mt_lg_95 {
         margin-top: 95px;
+    }
+
+    .choosePlan_x_line {
+        top: 37%;
+    }
+
+    .choosePlan_x_line2 {
+        display: none;
+    }
+
+    .border_lg_right {
+        border-right: 1px solid var(--clr-borderGrey);
+    }
+
+    .pb_lg_81 {
+        padding-bottom: 81px;
+    }
+
+    .mb_lg_87 {
+        margin-bottom: 87px;
+    }
+
+    .py_lg_207_37 {
+        padding-top: 207px;
+        padding-bottom: 37px;
+    }
+
+    .mb_lg_57 {
+        margin-bottom: 57px;
     }
 
 }
