@@ -21,6 +21,9 @@
     <meta property="twitter:description" content="AI powered document compliance solution" />
     <meta property="twitter:image" content="https://i.ibb.co/PZYyffd/Screenshot-2024-04-22-104816.png" />
     <!-- Meta Tags Generated with https://metatags.io -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./assets/images/svg/dox-logo.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
@@ -34,6 +37,12 @@
 </head>
 
 <body class="color-bodyBlue">
+    <div id="preload"
+        class="min-vh-100 w-100 d-flex align-items-center justify-content-center bg-black z-4 position-fixed start-0 top-0">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="./assets/images/svg/dox-logo.svg" alt="dox-logo">
+        </div>
+    </div>
     <header class="hero_bg">
         <nav class="color-bodyBlue navBorder_bottom">
             <div class="nav_container_1350">
@@ -66,7 +75,7 @@
         </nav>
         <div class="position-absolute position_heroEllip d-md-block d-none"></div>
         <div class="container_1140">
-            <div class="row pt_81">
+            <div data-aos="zoom-in" class="row pt_81">
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center">
                         <div class="blue_line"></div>
@@ -129,10 +138,10 @@
     <section id="security">
         <div class="container_1140">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6 col-12">
+                <div data-aos="zoom-in-up" class="col-lg-6 col-12">
                     <img class="w-100" src="./assets/images/png/trust-ai-glob-image.png" alt="trust-ai-glob-image.png">
                 </div>
-                <div class="col-lg-5 col-12">
+                <div data-aos="zoom-in-up" class="col-lg-5 col-12">
                     <div>
                         <h2 class="ff_jakarta fw-500 text-44 lh-sm-55 lh-44 color-lightWhite max_w_467">Compliance
                             Security Trust
@@ -157,7 +166,7 @@
                 src="./assets/images/png/help-left-ellip.png" alt="help-left-ellip"></div>
         <div class="container_1140">
             <div class="row row_gap_help">
-                <div class="col-lg-6 d-flex align-items-center mb-lg-0 mb-sm-5 mb-3">
+                <div data-aos="flip-left" class="col-lg-6 d-flex align-items-center mb-lg-0 mb-sm-5 mb-3">
                     <div class="blank">
                         <h2 class="ff_jakarta fw-500 text-44 lh-55 color-lightWhite">How we can help?</h2>
                         <p class="ff_jakarta fw-400 text-16 lh-27 color-lightWhite opacity_70 max_w_474">Whether you
@@ -171,7 +180,7 @@
                             video</button>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex justify-content-center ">
+                <div data-aos="flip-left" class="col-lg-6 d-flex justify-content-center ">
                     <div>
                         <div class="accordion-box mx-auto">
                             <div class="timeSaving_box active">
@@ -342,7 +351,7 @@
                 src="./assets/images/png/bring-value-right-ellip.png" alt="bring-value-right-ellip"></div>
         <div class="container_1140">
             <div class="row flex-lg-row flex-column-reverse">
-                <div class="col-lg-6 d-flex justify-content-center py_lg_89_109">
+                <div data-aos="flip-up" class="col-lg-6 d-flex justify-content-center py_lg_89_109">
                     <div class="blank">
                         <h2 class="ff_jakarta fw-500 text-44 lh-sm-55 lh-44 color-lightWhite mb_md_44 mb-20">How We
                             Bring Value
@@ -396,7 +405,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex justify-content-center">
+                <div data-aos="flip-up" class="col-lg-6 d-flex justify-content-center">
                     <img class="w-100 max_w_645 object-fit-contain" src="./assets/images/png/bring-value-image.png"
                         alt="bring-value-image">
                 </div>
@@ -470,11 +479,11 @@
                 src="./assets/images/png/secure-right-ellip.png" alt="secure-right-ellip"></div>
         <div class="container_1140">
             <div class="row justify-content-between">
-                <div class="col-lg-6 d-flex justify-content-center">
+                <div data-aos="zoom-in" class="col-lg-6 d-flex justify-content-center">
                     <img class="w-100 max_w_673" src="./assets/images/png/secure-solution-image.png"
                         alt="secure-solution-image">
                 </div>
-                <div class="col-lg-5">
+                <div data-aos="zoom-in" class="col-lg-5">
                     <h2 class="ff_jakarta fw-500 text-44 lh-sm-55 lh-44 color-lightWhite">We provide secure solutions
                     </h2>
                     <p class="ff_jakarta fw-400 text-16 lh-27 color-lightWhite opacity_70 max_w_474">For nationwide and
@@ -497,7 +506,8 @@
                 a 10 page
                 document</p>
             <div class="row work_row_gap">
-                <div class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
+                <div data-aos="fade-up"
+                    class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
                     <div class="blank">
                         <div class="position-absolute position-rightArrow d-sm-block d-none"><img
                                 src="./assets/images/svg/arrow-right-image.svg" alt="arrow-right-image"></div>
@@ -547,7 +557,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
+                <div data-aos="fade-down"
+                    class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
                     <div class="blank">
                         <div class="position-absolute position-rightArrow d-lg-block d-none"><img
                                 src="./assets/images/svg/arrow-right-image.svg" alt="arrow-right-image"></div>
@@ -665,7 +676,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
+                <div data-aos="fade-up"
+                    class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
                     <div class="blank">
                         <div class="position-absolute position-rightArrow d-sm-block d-none"><img
                                 src="./assets/images/svg/arrow-right-image.svg" alt="arrow-right-image"></div>
@@ -704,7 +716,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
+                <div data-aos="fade-down"
+                    class="col-lg-3 col-sm-6 col-12 d-flex justify-content-center position-relative">
                     <div class="blank">
                         <div class="started_outer_box position-relative">
                             <div class="position-absolute position_plusIcon"><img
@@ -760,42 +773,45 @@
                 <div class="integration_x_line position-absolute"></div>
                 <div class="integration_x_line2 position-absolute"></div>
                 <div class="integration_x_line3 position-absolute"></div>
-                <div
+                <div data-aos="zoom-in"
                     class="col-lg-3 col-md-4 col-sm-6 col-12 border_lg_right border_md_right border_sm_right d-flex justify-content-center">
                     <div class="padding_inte"><a href="https://www.google.com/intl/en_in/drive/download/"
                             target="_blank"><img src="./assets/images/svg/integration1.svg" alt="integration1"></a>
                     </div>
                 </div>
-                <div
+                <div data-aos="zoom-in"
                     class="col-lg-3 col-md-4 col-sm-6 col-12 border_lg_right border_md_right d-flex justify-content-center">
                     <div class="padding_inte"><a href="https://www.dropbox.com/" target="_blank"><img
                                 src="./assets/images/svg/intergration2.svg" alt="integration2"></a></div>
                 </div>
-                <div
+                <div data-aos="zoom-in"
                     class="col-lg-3 col-md-4 col-sm-6 col-12 border_lg_right border_sm_right d-flex justify-content-center">
                     <div class="padding_inte"><a href="https://www.box.com/en-in/home" target="_blank"><img
                                 src="./assets/images/svg/integration3.svg" alt="integration3"></a></div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 border_md_right d-flex justify-content-center">
+                <div data-aos="zoom-in"
+                    class="col-lg-3 col-md-4 col-sm-6 col-12 border_md_right d-flex justify-content-center">
                     <div class="padding_inte"><a href="https://www.netdocuments.com/" target="_blank"><img
                                 src="./assets/images/svg/integration4.svg" alt="integration4"></a></div>
                 </div>
-                <div
+                <div data-aos="zoom-in"
                     class="col-lg-3 col-md-4 col-sm-6 col-12 border_lg_right border_md_right border_sm_right d-flex justify-content-center">
                     <div class="padding_inte"><img src="./assets/images/svg/integration5.svg" alt="integration5"></div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 border_lg_right d-flex justify-content-center">
+                <div data-aos="zoom-in"
+                    class="col-lg-3 col-md-4 col-sm-6 col-12 border_lg_right d-flex justify-content-center">
                     <div class="padding_inte"><a href="https://www.amazon.in/" target="_blank"><img
                                 src="./assets/images/svg/integration6.svg" alt="integration6"></a></div>
                 </div>
-                <div
+                <div data-aos="zoom-in"
                     class="col-lg-3 col-md-4 col-sm-6 col-12 border_lg_right border_md_right border_sm_right d-flex justify-content-center">
                     <div class="padding_inte"><a
                             href="https://support.microsoft.com/en-us/office/sign-in-to-sharepoint-324a89ec-e77b-4475-b64a-13a0c14c45ec"
                             target="_blank"><img src="./assets/images/svg/integration7.svg" alt="integration7"></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 border_md_right d-flex justify-content-center">
+                <div data-aos="zoom-in"
+                    class="col-lg-3 col-md-4 col-sm-6 col-12 border_md_right d-flex justify-content-center">
                     <div class="padding_inte"><a href="https://onedrive.live.com/login/" target="_blank"><img
                                 src="./assets/images/svg/integration8.svg" alt="integration8"></a></div>
                 </div>
@@ -807,7 +823,7 @@
         <div class="position-absolute position_AccelerateEllip d-sm-block d-none"></div>
         <div class="container_1140">
             <div class="row flex-lg-row flex-column-reverse">
-                <div class="col-lg-6 d-flex justify-content-center flex-column">
+                <div data-aos="fade-up-right" class="col-lg-6 d-flex justify-content-center flex-column">
                     <h2 class="ff_jakarta fw-500 text-44 lh-sm-55 lh-44 color-lightWhite max_w_525 mb-2">Accelerate Your
                         Enterprise’s
                         Document Redaction Efforts</h2>
@@ -820,7 +836,7 @@
                         class="ff_jakarta fw-600 text-16 lh-27 color-lightWhite comn_btn max_w_150 text-nowrap">learn
                         more</button>
                 </div>
-                <div class="col-lg-6 d-flex justify-content-center">
+                <div data-aos="fade-up-right" class="col-lg-6 d-flex justify-content-center">
                     <div class="position-relative"><img class="w-100 max_w_507"
                             src="./assets/images/png/efforts-img.png" alt="efforts-img">
                         <div class="position-absolute position_security">
@@ -844,7 +860,7 @@
                 <div class="position-absolute choosePlan_x_line"></div>
                 <div class="position-absolute choosePlan_x_line2"></div>
                 <div class="position-absolute choosePlan_x_line3"></div>
-                <div
+                <div data-aos="flip-left"
                     class="col-lg-4 col-md-6 borderChoose_md_right d-flex flex-column align-items-center choose_col_hover">
                     <div class="position-absolute choose_ellip position_ChooseCenterEllip"></div>
                     <h5 class="ff_jakarta fw-600 text-32 lh-44 color-lightWhite mb-0 doller">$0.99</h5>
@@ -874,7 +890,7 @@
                     </div>
                     <button class="ff_jakarta fw-600 text-16 lh-27 color-lightwhite70 choose_btn mb_48">select</button>
                 </div>
-                <div
+                <div data-aos="zoom-in"
                     class="col-lg-4 col-md-6 border_lg_right d-flex flex-column align-items-center mt-md-0 mt-4 position-relative choose_col_hover">
                     <div class="position-absolute choose_ellip position_ChooseCenterEllip"></div>
                     <h5 class="ff_jakarta fw-600 text-32 lh-44 color-lightWhite mb-0 doller">$490</h5>
@@ -903,8 +919,8 @@
                     </div>
                     <button class="ff_jakarta fw-600 text-16 lh-27 color-lightwhite70 choose_btn mb_48">select</button>
                 </div>
-                <div
-                    class="col-lg-4 d-flex flex-column align-items-center mt-lg-0 mt-4 position-relative choose_col_hover">
+                <div data-aos="flip-right" class=" col-lg-4 d-flex flex-column align-items-center mt-lg-0 mt-4 position-relative
+                    choose_col_hover">
                     <div class="position-absolute choose_ellip position_ChooseCenterEllip"></div>
                     <h5 class="ff_jakarta fw-600 text-32 lh-44 color-lightWhite mb-0 doller">$190</h5>
                     <p class="ff_jakarta fw-500 text-20 lh-28 color-lightWhite pb_lg_81 pb_md_50 pb_sm_25 pb_20 mb-0">
@@ -938,17 +954,18 @@
     <!-- =============Get started today============== -->
     <section class="started_bg_img py_lg_123 py_md_90 py_sm_70 py_30">
         <div class="container_1140">
-            <h2 class="ff_jakarta fw-500 text-44 lh-sm-55 lh-44 color-lightWhite mb-md-2 mb-0 text-center">Get Started
+            <h2 data-aos="fade-up"
+                class="ff_jakarta fw-500 text-44 lh-sm-55 lh-44 color-lightWhite mb-md-2 mb-0 text-center">Get Started
                 Today!
             </h2>
-            <p
+            <p data-aos="fade-up"
                 class="ff_jakarta fw-400 text-16 lh-27 color-lightWhite opacity_70 max_w_618 text-center mx-auto mb_md_46 mb_sm_30 mb_17">
                 Arcu
                 egestas
                 pellentesque
                 velit facilisis in in. Tortor nisl urna lacus mauris adipiscing commodo purus. Lectus etiam
                 arcu sagittis pellentesque hendrerit.</p>
-            <div class="input_modification d-flex justify-content-between mx-auto">
+            <div data-aos="fade-up" class="input_modification d-flex justify-content-between mx-auto">
                 <input type="text" placeholder="Enter your email here"
                     class="ff_jakarta fw-400 text-16 lh-27 color-lightWhite opacity_80 bg_transprant w-100 mb-0 d-sm-block d-none">
                 <input type="text" placeholder="Enter email"
@@ -1131,6 +1148,9 @@
             </svg>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
