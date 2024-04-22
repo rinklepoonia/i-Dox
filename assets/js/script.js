@@ -34,6 +34,7 @@ $('.testi_slider').slick({
     speed: 300,
     centerMode: true,
     centerPadding: '60px',
+    autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
