@@ -27,6 +27,14 @@ accordionHead.forEach((e) => {
         activeAccordion && activeAccordion.classList.remove("active")
     })
 })
+// const accordionHead = document.querySelectorAll(".timeSaving_box");
+// accordionHead.forEach((e) => {
+//     e.addEventListener("click", () => {
+//         const activeAccordion = document.querySelector(".active")
+//         e.classList.toggle("active")
+//         activeAccordion && activeAccordion.classList.remove("active")
+//     })
+// })
 // ================testi-slider
 $('.testi_slider').slick({
     dots: true,
@@ -38,16 +46,6 @@ $('.testi_slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
-        // {
-        //     breakpoint: 600,
-        //     settings: {
-        //         slidesToShow: 1,
-        //         slidesToScroll: 2,
-        //         dots: true,
-        //         centerMode: false,
-        //         centerPadding: '0',
-        //     }
-        // },
     ]
 });
 // ===============back-to-top
@@ -71,4 +69,5 @@ setTimeout(() => {
 }, "2000");
 AOS.init({
     duration: 1200,
+    once: true,
 })
